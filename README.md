@@ -1,37 +1,58 @@
-# LA-fashion-marketing-analytics
-🧵 Overview
-This project explores optimal locations in Los Angeles County to open new clothing retail stores based on store survival rates, market saturation, and co-location patterns. We aimed to answer the business question:
+# 🧵 LA Fashion Marketing Analytics
 
-"Where should we open a new clothing store in LA County to maximize survival and growth potential?"
+## 📌 Overview
 
-🔍 Methodology
-Data Collection: Extracted historical business license data for clothing stores across LA County
+This project explores **optimal locations in Los Angeles County** to open new clothing retail stores based on:
 
-Feature Engineering: Created survival curves and categorized store types
+* Store **survival rates**
+* **Market saturation**
+* **Co-location patterns**
 
-Clustering: Grouped zip codes based on store density, survival trends, and demographics
+> **Business Question:**
+> *Where should we open a new clothing store in LA County to maximize survival and growth potential?*
 
-Exploratory Data Analysis (EDA): Identified hotspots for high survival and underserved markets
+---
 
-📈 Key Insights
-High survival clusters include Claremont, Agoura, and Northridge/Canoga Park
+## 🔍 Methodology
 
-Over 50% of stores close within 6 years, with the highest churn between years 2–4
+* **Data Collection**:
+  Extracted historical **business license data** for clothing stores across LA County
 
-Women’s and General Apparel stores have high co-location synergies
+* **Feature Engineering**:
+  Created survival curves and categorized store types
 
-2009 was a turning point: more store closures than openings, lingering through the 2010s
+* **Clustering**:
+  Grouped ZIP codes by store density, survival trends, and demographics
 
-🧭 Recommendations
-Launch new stores in Claremont, Agoura, and Maywood to balance opportunity and stability
+* **Exploratory Data Analysis (EDA)**:
+  Identified hotspots for high survival and underserved markets
 
-Avoid Downtown LA and Santa Monica for now due to high saturation and rent
+---
 
-Future enhancements: integrate lease pricing, foot traffic estimates, and ROI modeling for investment prioritization
+## 📈 Key Insights
 
-🔗 Project Outcomes
-Informed market-entry strategy for boutique or general apparel brands
+* **High survival clusters**: Claremont, Agoura, Northridge/Canoga Park
+* **Churn trend**: Over 50% of stores close within 6 years, especially between **years 2–4**
+* **Synergy**: Women’s and general apparel stores often **co-locate successfully**
+* **Market shift**: 2009 marked a turning point with **more closures than openings**, continuing into the 2010s
 
-Framework for expanding into untapped, high-survival regions in LA County
+---
 
-Usable by fashion retailers, commercial real estate investors, and retail analytics teams
+## 🧭 Recommendations
+
+* ✅ **Open in**: Claremont, Agoura, and Maywood to maximize survival and growth opportunity
+* 🚫 **Avoid**: Downtown LA and Santa Monica due to **high saturation and rent**
+* 🔧 **Future Enhancements**:
+
+  * Add **lease pricing**
+  * Include **foot traffic data**
+  * Build **ROI models** for investment prioritization
+
+---
+
+## 🔗 Project Outcomes
+
+* 📊 Informed **market-entry strategy** for boutique and general apparel brands
+* 📍 Created a **framework** for targeting untapped, high-survival ZIP codes
+* 👥 Usable by **fashion retailers**, **real estate investors**, and **retail analytics teams**
+
